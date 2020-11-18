@@ -33,3 +33,29 @@ function imgChange(id){
 }
 
 
+function enable(id){
+  switch(id) {
+      case 1:
+        buttonOne.disabled = true;
+        buttonTwo.disabled = false;
+        buttonThree.disabled = false;
+        break;
+      case 2:
+        buttonOne.disabled = false
+        buttonTwo.disabled = true;
+        buttonThree.disabled = false;
+        break;
+      case 3:
+        buttonOne.disabled = false;
+        buttonTwo.disabled = false;
+        buttonThree.disabled = true;
+          break;
+      default:
+
+      break;
+    }
+}
+
+
+
+
