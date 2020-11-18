@@ -1,0 +1,22 @@
+#container{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 4px dotted blue;
+
+
+    background-image: url(images/bg0.jpg);
+}
+
+
+#img-1{
+    float: right;
+    margin-top: 450px;
+    width: 100px;
+}
+
+
+button{
+    padding: 15px;
+    background-color: green;
+}
